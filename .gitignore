@@ -1,0 +1,53 @@
+# Node.js 관련
+node_modules/          # Node.js 의존성 디렉토리
+npm-debug.log*         # NPM 디버그 로그 파일
+yarn-debug.log*        # Yarn 디버그 로그 파일
+yarn-error.log*        # Yarn 에러 로그 파일
+.pnpm-debug.log*       # PNPM 디버그 로그 파일
+
+# 환경 변수
+.env                   # 환경 변수 파일
+
+# OS 및 IDE 관련
+.DS_Store              # macOS에서 생성되는 시스템 파일
+Thumbs.db              # Windows에서 생성되는 파일
+*.swp                  # Vim 임시 파일
+.idea/                 # IntelliJ IDEA 설정 파일
+.vscode/               # Visual Studio Code 설정 파일
+*.code-workspace       # Visual Studio Code 워크스페이스 파일
+
+# 로그 파일
+logs/                  # 로그 파일 디렉토리
+*.log                  # 로그 파일
+debug.log              # 디버그 로그
+
+# 빌드 및 배포 파일
+dist/                  # 빌드 결과물
+build/                 # 빌드 결과물
+out/                   # 빌드 결과물
+coverage/              # 테스트 커버리지 리포트
+*.tgz                  # 압축 패키지 파일
+*.zip                  # 압축 파일
+*.tar.gz               # 압축 파일
+
+# 데이터베이스 관련
+*.sqlite               # SQLite 데이터베이스 파일
+*.db                   # 데이터베이스 파일
+dump.rdb               # Redis 데이터 파일
+*.sql                  # SQL 덤프 파일
+
+# Python 관련
+__pycache__/           # Python 캐시 디렉토리
+*.pyc                  # Python 컴파일 파일
+*.pyo                  # Python 최적화 파일
+.env                   # 환경 변수 파일
+.venv/                 # Python 가상 환경
+
+# Docker 관련
+docker-compose.override.yml # 로컬 Docker 오버라이드 파일
+*.dockerfile           # 도커파일
+
+# 기타
+*.bak                  # 백업 파일
+*.tmp                  # 임시 파일
+
