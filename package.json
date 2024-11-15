@@ -1,0 +1,22 @@
+{
+  "name": "exercise",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/hs7529/exercise.git"
+  },
+  "keywords": [
+    "WON"
+  ],
+  "author": "WON",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hs7529/exercise/issues"
+  },
+  "homepage": "https://github.com/hs7529/exercise#readme",
+  "description": ""
+}
