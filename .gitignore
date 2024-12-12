@@ -51,3 +51,4 @@ docker-compose.override.yml # 로컬 Docker 오버라이드 파일
 *.bak                  # 백업 파일
 *.tmp                  # 임시 파일
 
+node_modules

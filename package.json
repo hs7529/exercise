@@ -1,0 +1,38 @@
+{
+  "name": "exercise",
+  "version": "1.0.0",
+  "description": "exercise",
+  "main": "sever.js",
+  "scripts": {
+    "babel-node": "babel-node --presets='@babel/preset-env' --ignore='foo|bar|baz'",
+    "dev": "nodemon --exec babel-node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hs7529/exercise.git"
+  },
+  "keywords": [
+    "won"
+  ],
+  "author": "won",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hs7529/exercise/issues"
+  },
+  "homepage": "https://github.com/hs7529/exercise#readme",
+  "dependencies": {
+    "express": "^4.21.1",
+    "mongodb": "^6.10.0",
+    "mongoose": "^8.8.2",
+    "morgan": "^1.10.0",
+    "@prettier/plugin-pug": "^3.2.0",
+    "pug": "^3.0.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/node": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "nodemon": "^3.1.7",
+    "prettier": "^3.3.3"
+  }
+}
